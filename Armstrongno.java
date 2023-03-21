@@ -16,7 +16,7 @@ public class Armstrongno {
 
         for (int i = 1; i <= num; i++) {
 
-            int rem = num % 10; // for accsing the last digit of the number
+            int rem = num % 10; // for accesing the last digit of the number
 
             sum = sum + (rem * rem * rem);
 
